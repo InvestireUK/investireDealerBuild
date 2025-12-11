@@ -1,0 +1,1 @@
+import{s as c,c9 as o,ca as i}from"./index-dQ9ulDrK.js";const h=()=>{const t=c();return async()=>{var s,r;try{const e=await o(),a=(r=(s=e==null?void 0:e.data)==null?void 0:s.data)==null?void 0:r.user;if(!a){console.warn("No user data received.");return}t(i({user:a}))}catch(e){console.error("Failed to refresh user:",e)}}};export{h as u};
