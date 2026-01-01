@@ -1,1 +1,0 @@
-import{v as o,ce as c,a1 as i}from"./index-BVpDJRyc.js";const h=()=>{const t=o();return async()=>{var r,s;try{const e=await c(),a=(s=(r=e==null?void 0:e.data)==null?void 0:r.data)==null?void 0:s.user;if(!a){console.warn("No user data received.");return}t(i({user:a}))}catch(e){console.error("Failed to refresh user:",e)}}};export{h as u};
