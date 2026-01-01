@@ -1,1 +1,0 @@
-import{v as c,cc as o,$ as i}from"./index-DvgL_1AD.js";const h=()=>{const a=c();return async()=>{var r,s;try{const e=await o(),t=(s=(r=e==null?void 0:e.data)==null?void 0:r.data)==null?void 0:s.user;if(!t){console.warn("No user data received.");return}a(i({user:t}))}catch(e){console.error("Failed to refresh user:",e)}}};export{h as u};
