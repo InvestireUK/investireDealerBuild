@@ -1,0 +1,1 @@
+import{v as o,cg as c,a0 as i}from"./index-BPP_8qLW.js";const h=()=>{const t=o();return async()=>{var r,s;try{const e=await c(),a=(s=(r=e==null?void 0:e.data)==null?void 0:r.data)==null?void 0:s.user;if(!a){console.warn("No user data received.");return}t(i({user:a}))}catch(e){console.error("Failed to refresh user:",e)}}};export{h as u};
